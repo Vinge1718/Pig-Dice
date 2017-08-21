@@ -9,6 +9,20 @@ mathfloor-function rounds off to the nearest whole-number our
 $(document).ready(function(){
   $("input#player1-btn").click(function(){
     var die = Math.floor((Math.random()*6)+1);
-    $("span#player1Score").text(die);
+    if(die === 1){
+      var points = 0;
+    }else{
+      points = die;
+    }
+    $("span#player1Score").text(points);
+  });
+  $("input#player2-btn").click(function(){
+    var die = Math.floor((Math.random()*6)+1);
+    if(die === 1){
+      var points = 0;
+    }else{
+      points = die;
+    }
+    $("span#player2Score").text(points);
   });
 });
