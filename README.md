@@ -10,3 +10,4 @@
 2. We get our range between 1-6 by multiplying it by six (6) then adding one (1) since the mathfloor-function
     rounds off to the nearest whole-number - the maximum number generated might be 5.
 3. Convert it to a whole number using math-floor function rounding off to the nearest whole number.
+4. Printing the result of the dice roll upon clicking the .
