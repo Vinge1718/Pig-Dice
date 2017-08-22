@@ -11,3 +11,6 @@ label{
 #player2-die1, #player2-die2, #player1-die1, #player1-die2{
   display: none;
 }
+#gameArea{
+  display: none;
+}
