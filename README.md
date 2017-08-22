@@ -12,4 +12,4 @@
 3. Convert it to a whole number using math-floor function rounding off to the nearest whole number.
 4. Printing the result of the dice roll upon clicking the roll button.
 5. deciding the winning and loosing score.
-6. Using two dice
+6. Using two dice to get the sum of the total points tally.
