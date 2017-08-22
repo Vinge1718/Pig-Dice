@@ -23,8 +23,8 @@ $(document).ready(function(){
     }else{
       points = player1Die1 + player1Die2;
     }
-    $("label#player1-die1").text(player1Die1);
-    $("label#player1-die2").text(player1Die2);
+    $("label#player1-die1").text(player1Die1).show();
+    $("label#player1-die2").text(player1Die2).show();
     $("span#player1Score").text("Your score is: "+points);
 
   });
@@ -40,8 +40,8 @@ $(document).ready(function(){
     }else{
       points2 = player2Die1 + player2Die2;
     }
-    $("label#player2-die1").text(player2Die1);
-    $("label#player2-die2").text(player2Die2);
+    $("label#player2-die1").text(player2Die1).show();
+    $("label#player2-die2").text(player2Die2).show();
     $("span#player2Score").text("Your score is: "+points2);
   });
 });
