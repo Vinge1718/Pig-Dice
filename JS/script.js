@@ -26,7 +26,7 @@ $(document).ready(function(){
     $("label#player1-die1").text(player1Die1).show();
     $("label#player1-die2").text(player1Die2).show();
     $("span#player1Score").text("Your score is: "+points);
-    $("#player1TotalScore").
+
   });
   $("input#player2-btn").click(function(){
 
